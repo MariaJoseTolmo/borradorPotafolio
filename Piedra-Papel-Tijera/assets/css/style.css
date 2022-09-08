@@ -1,0 +1,99 @@
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+#cont{
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.history{
+    min-height: 100vh;
+}
+#resultHistoryIcon{
+    background-color: orange;
+}
+#historyResult{
+    background-color: red;
+}
+#barWin{
+    background-color: yellow;
+}
+#barTie{
+    background-color: green;
+}
+#barLose{
+    background-color: blue;
+}
+.bar{
+    min-height: 33%;
+}
+#p1{
+    background-color: magenta;
+}
+#p2{
+    background-color: grey;
+}
+#p3{
+    background-color: purple;
+}
+#historyPlayerRandom{
+    background-color: black;
+}
+#rock, .rockPlayer{
+    background-image: url("../img/00stone.png");
+}
+#paper, .paperPlayer{
+    background-image: url("../img/00paper.png")
+}
+#scissors, .scissorsPlayer{
+    background-image: url("../img/000scissors.png")
+}
+#rockRandom, #rockRandomH, .rockRandom{
+    background-image: url("../img/000stone_r.png");
+}
+#paperRandom, #paperRandomH, .paperRandom{
+    background-image: url("../img/0paper.png");
+}
+#scissorsRandom, #scissorsRandomH, .scissorsRandom{
+    background-image: url("../img/0scissors.png");
+}
+.inputPlayer, .inputPlayerButton, .outputRandom, .outputRandomH{
+    display:block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: solid transparent 1px;
+    /* border-radius: 50%; */
+}
+.inputPlayer, .inputPlayerButton, .outputRandom{
+    width: 30%;
+    height: 100%;
+}
+.outputRandomH{
+    height: 33%;
+}
+.win, .lose, .tie{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.win, .winResult{
+    background-color: #6D972E;
+}
+.lose, .loseResult{
+    background-color: #84B09F;
+}
+.tie, .tieResult{
+    background-color: #E45545;
+}
+.disable-select, .disable{
+    border: solid 1px gray;
+}
+.disable-select{
+    background-color: gray;
+}
+.disable{
+    background-color: #6D972E;
+}

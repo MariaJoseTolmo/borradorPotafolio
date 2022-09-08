@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <meta name="theme-color" content="#000000"> 
+  <meta name="keywords" content="Rock Paper Scissors">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rock-paper-scissors">
+  <meta name="author" content="MJose Tolmo">
+  <title>Rock Paper Scissors</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./assets/img/tab.png">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Css Styles -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Fuentes de Google font montserrat 100 y 500, Open Sans 300 y 500 -->
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Sans:wght@200&family=Montserrat:wght@100;500&family=Open+Sans:wght@300;500&family=Ubuntu:wght@300&family=Walter+Turncoat&display=swap" rel="stylesheet">
+  <!-- Iconos Font wesome -->
+    <script src="https://kit.fontawesome.com/028cd863b1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- <nav id="nv" class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="">
+        <img class="logo" src="./assets/img/logo.jpg" alt="">
+        <h2 class="d-inline-block align-bottom m-0 titleNav"></h2>
+      </a>
+    </div>
+  </nav> -->
+  <div id="cont" class="container justify-content-center">
+    <div class="row">
+        <div class="col-2 history">
+            <div id="resultHistoryIcon" class="h-25">
+                <div class="row h-100  justify-content-end">
+                    <div class="col-12 col-sm-6">
+                        <div id="rockRandomH" class="outputRandomH"></div>
+                        <div id="paperRandomH" class="outputRandomH"></div>
+                        <div id="scissorsRandomH" class="outputRandomH"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="historyResult" class="h-75">
+                <div class="row h-100  justify-content-center">
+                    <div class="col-12 col-sm-6">
+                        <div class="win"></div>
+                        <div class="tie"></div>
+                        <div class="lose"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-8">
+            <div class="h-25 w-100">
+                <div id="barWin"    class="bar"></div>
+                <div id="barTie"    class="bar"></div>
+                <div id="barLose"   class="bar"></div>
+            </div>
+            <div id="p3" class="h-25 w-100 d-flex justify-content-around">
+                <div id="rockRandom" class="outputRandom"></div>
+                <div id="paperRandom" class="outputRandom"></div>
+                <div id="scissorsRandom" class="outputRandom"></div>
+            </div>
+            <div id="p2" class="h-25 w-100 d-flex justify-content-center">
+                <div id="resultRandom" class="inputPlayer loseResult scissorsRandom paperRandom rockRandom"></div>
+                <div id="resultPlayer" class="inputPlayer winResult scissorsPlayer paperPlayer rockPlayer"></div>
+            </div>
+            <div id="p1" class="h-25 w-100 d-flex justify-content-around">
+                <div id="rock" class="inputPlayerButton"></div>
+                <div id="paper" class="inputPlayerButton"></div>
+                <div id="scissors" class="inputPlayerButton"></div>
+            </div>
+            
+        </div>
+        <div class="col-2 history">
+            <div class="h-25"></div>
+            <div id="historyPlayerRandom" class="h-75"></div>
+        </div>
+        <div></div>
+    </div>
+  </div>
+  <!-- Tras haber leido el doc html -->
+  <!-- jQuery, Popper.js, Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <!--Canva JS - Charts-->
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"> </script>
+  <!-- Se lee despues de haber leido jQuery, Popper.js, Bootstrap JS. Viene el script del proyecto -->
+  <script src="./assets/js/js.js"></script>
+</body>
+
+</html>
